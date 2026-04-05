@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CloudFolio | AWS Cloud Engineer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+
+  <!-- ✅ Your CSS File -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ═══ STAR BACKGROUND CANVAS ═══ -->
+  <canvas id="stars-canvas"></canvas>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav>
+    <div class="logo">Cloud<span>&lt;/&gt;</span>Folio</div>
+    <ul id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#architecture">Architecture</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- ═══ HERO SECTION ═══ -->
+  <section class="hero" id="home">
+    <div class="hero-tag">☁ AWS Cloud Engineer &nbsp;|&nbsp; Fresher 2024</div>
+    <h1>
+      Building the<br/>
+      <span class="highlight" id="typed-text"></span><span class="cursor"></span><br/>
+      on the Cloud.
+    </h1>
+    <p class="hero-sub">
+      I'm a cloud computing enthusiast exploring AWS services, deploying
+      infrastructure, and building scalable web solutions hosted on Nginx.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact"  class="btn btn-ghost">Let's Connect</a>
+    </div>
+    <div class="hero-badge badge1">⚡ AWS EC2 &nbsp;·&nbsp; Nginx</div>
+    <div class="hero-badge badge2">🛡 IAM &nbsp;·&nbsp; S3 &nbsp;·&nbsp; VPC</div>
+    <div class="hero-badge badge3">🌐 Hosted Live!</div>
+  </section>
+
+  <!-- ═══ ABOUT SECTION ═══ -->
+  <section id="about">
+    <div class="section-label">01 / About</div>
+    <div class="section-title reveal">Who am I?</div>
+    <p class="about-text reveal">
+      I'm a fresher diving deep into <strong>AWS Cloud Computing</strong>.
+      I've set up my own EC2 instance, deployed Nginx as a web server, and
+      configured security groups &amp; networking. I'm passionate about cloud
+      infrastructure, DevOps, and building real-world projects from scratch.
+      This website is hosted on <strong class="accent">my own AWS EC2 server</strong> running Nginx!
+    </p>
+    <div class="stats-row">
+      <div class="stat-box reveal">
+        <div class="stat-num" data-target="5">0</div>
+        <div class="stat-label">AWS Services Explored</div>
+      </div>
+      <div class="stat-box reveal">
+        <div class="stat-num" data-target="3">0</div>
+        <div class="stat-label">Projects Deployed</div>
+      </div>
+      <div class="stat-box reveal">
+        <div class="stat-num" data-target="1">0</div>
+        <div class="stat-label">Live EC2 Server Running</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS SECTION ═══ -->
+  <section id="skills" class="bg-alt">
+    <div class="section-label">02 / Skills</div>
+    <div class="section-title reveal">Tech Stack</div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">☁</div>
+        <div class="skill-name">Amazon EC2</div>
+        <div class="skill-desc">Launch &amp; manage virtual machines. Configure security groups and key pairs.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🪣</div>
+        <div class="skill-name">Amazon S3</div>
+        <div class="skill-desc">Store &amp; host static assets, bucket policies, versioning and lifecycle rules.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">Nginx Web Server</div>
+        <div class="skill-desc">Install, configure &amp; deploy websites. Reverse proxy &amp; server blocks.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔐</div>
+        <div class="skill-name">AWS IAM</div>
+        <div class="skill-desc">Users, roles, policies &amp; permission management for secure access control.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🕸</div>
+        <div class="skill-name">VPC &amp; Networking</div>
+        <div class="skill-desc">Subnets, Internet Gateways, Route Tables, and Security Groups setup.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>50%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐧</div>
+        <div class="skill-name">Linux &amp; CLI</div>
+        <div class="skill-desc">SSH into servers, bash scripting, file permissions, package management.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS SECTION ═══ -->
+  <section id="projects">
+    <div class="section-label">03 / Projects</div>
+    <div class="section-title reveal">What I've Built</div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT — 01</div>
+        <div class="project-title">🌐 Static Portfolio on EC2</div>
+        <div class="project-desc">Launched an AWS EC2 instance (Ubuntu), installed Nginx, configured security groups and deployed this portfolio website live.</div>
+        <div class="tags">
+          <span class="tag">EC2</span><span class="tag">NGINX</span><span class="tag">HTML/CSS</span><span class="tag">Linux</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT — 02</div>
+        <div class="project-title">🪣 S3 Static Website Hosting</div>
+        <div class="project-desc">Configured S3 bucket for static website hosting, set public access policies, enabled versioning, and linked Route 53 for a custom domain.</div>
+        <div class="tags">
+          <span class="tag">S3</span><span class="tag">Route 53</span><span class="tag">CloudFront</span><span class="tag">DNS</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT — 03</div>
+        <div class="project-title">🔐 Secure VPC Architecture</div>
+        <div class="project-desc">Designed a custom VPC with public &amp; private subnets, NAT Gateway, Internet Gateway, and proper route tables with EC2 in private subnet.</div>
+        <div class="tags">
+          <span class="tag">VPC</span><span class="tag">Subnets</span><span class="tag">NAT</span><span class="tag">IAM</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ ARCHITECTURE SECTION ═══ -->
+  <section id="architecture" class="bg-alt">
+    <div class="section-label">04 / Architecture</div>
+    <div class="section-title reveal">How This Site Works</div>
+    <div class="arch-box reveal">
+      <p class="arch-subtitle">Live AWS architecture powering this portfolio</p>
+      <div class="arch-diagram">
+        <div class="arch-node"><span class="icon">🧑‍💻</span>User Browser</div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><span class="icon">🌍</span>Internet</div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><span class="icon">🛡</span>Security Group<br/><small>Port 80/443</small></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><span class="icon">☁</span>AWS EC2<br/><small>Ubuntu Server</small></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><span class="icon">🌐</span>Nginx<br/><small>/html/cloudfolio</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT SECTION ═══ -->
+  <section id="contact">
+    <div class="contact-box reveal">
+      <div class="section-label" style="text-align:center">05 / Contact</div>
+      <h2>Let's <span class="accent">Connect!</span></h2>
+      <p>I'm open to cloud internships, freelance projects, and collaborations.</p>
+      <a href="mailto:you@email.com" class="btn btn-primary">✉ Send me a message</a>
+      <div class="social-links">
+        <a href="#" class="social-link">💼 LinkedIn</a>
+        <a href="#" class="social-link">🐙 GitHub</a>
+        <a href="#" class="social-link">🐦 Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <p>CLOUDFOLIO &nbsp;·&nbsp; BUILT WITH ❤ &amp; AWS &nbsp;·&nbsp; HOSTED ON NGINX EC2</p>
+  </footer>
+
+  <!-- ✅ Your JavaScript File — always at bottom of body -->
+  <script src="script.js"></script>
+
+</body>
+</html>
